@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="215" y="154"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Illust Table View Controller-->
         <scene sceneID="fJr-0H-a2t">
             <objects>
-                <tableViewController id="F7d-xm-QbT" sceneMemberID="viewController">
+                <tableViewController id="F7d-xm-QbT" customClass="IllustTableViewController" customModule="sample1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hGA-sK-CgD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
