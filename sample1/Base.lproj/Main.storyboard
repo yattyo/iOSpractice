@@ -61,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="illustCell" rowHeight="198" id="T3J-xp-Jhs" customClass="IllustCell" customModule="sample1" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IllustCell" rowHeight="198" id="T3J-xp-Jhs" customClass="IllustCell" customModule="sample1" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T3J-xp-Jhs" id="gu8-hr-Tvq">
@@ -94,6 +94,10 @@
                                         <constraint firstItem="xfZ-1i-5BX" firstAttribute="top" secondItem="gu8-hr-Tvq" secondAttribute="top" constant="10" id="tYR-BP-PLi"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="illustImageView" destination="xfZ-1i-5BX" id="ft9-4V-bDl"/>
+                                    <outlet property="titleLabel" destination="kAz-Yc-xlo" id="O9k-La-vvy"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

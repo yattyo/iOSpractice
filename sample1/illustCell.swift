@@ -9,4 +9,6 @@
 import UIKit
 
 class IllustCell: UITableViewCell {
+    @IBOutlet weak var illustImageView: UIImageView!
+      @IBOutlet weak var titleLabel: UILabel!
 }
