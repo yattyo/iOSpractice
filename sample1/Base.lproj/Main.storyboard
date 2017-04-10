@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -55,17 +56,43 @@
         <scene sceneID="fJr-0H-a2t">
             <objects>
                 <tableViewController id="F7d-xm-QbT" customClass="IllustTableViewController" customModule="sample1" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hGA-sK-CgD">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="198" sectionHeaderHeight="28" sectionFooterHeight="28" id="hGA-sK-CgD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="T3J-xp-Jhs">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="198" id="T3J-xp-Jhs">
+                                <rect key="frame" x="0.0" y="28" width="375" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T3J-xp-Jhs" id="gu8-hr-Tvq">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="197.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xfZ-1i-5BX">
+                                            <rect key="frame" x="10" y="10" width="177.5" height="177.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="xfZ-1i-5BX" secondAttribute="height" multiplier="1:1" id="RCo-R4-lcX"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R8g-C3-p9W">
+                                            <rect key="frame" x="197.5" y="88.5" width="42" height="20.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAz-Yc-xlo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="R8g-C3-p9W" firstAttribute="leading" secondItem="xfZ-1i-5BX" secondAttribute="trailing" constant="10" id="Cz1-BI-mCv"/>
+                                        <constraint firstItem="R8g-C3-p9W" firstAttribute="centerY" secondItem="gu8-hr-Tvq" secondAttribute="centerY" id="a10-ys-o9W"/>
+                                        <constraint firstAttribute="bottom" secondItem="xfZ-1i-5BX" secondAttribute="bottom" constant="10" id="pvc-s0-1QW"/>
+                                        <constraint firstItem="xfZ-1i-5BX" firstAttribute="leading" secondItem="gu8-hr-Tvq" secondAttribute="leading" constant="10" id="tXa-sE-LLn"/>
+                                        <constraint firstItem="xfZ-1i-5BX" firstAttribute="top" secondItem="gu8-hr-Tvq" secondAttribute="top" constant="10" id="tYR-BP-PLi"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -77,7 +104,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mnd-1G-xdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="207" y="797"/>
+            <point key="canvasLocation" x="205.59999999999999" y="796.55172413793105"/>
         </scene>
         <!--Sample Image View Controller-->
         <scene sceneID="Xgf-G2-Ql6">
