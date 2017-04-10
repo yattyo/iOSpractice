@@ -16,6 +16,7 @@
 		40380D741E9B970B00B99E10 /* sample1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40380D731E9B970B00B99E10 /* sample1UITests.swift */; };
 		40380D821E9BA1D500B99E10 /* SampleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40380D811E9BA1D500B99E10 /* SampleImageViewController.swift */; };
 		40380D841E9BA53100B99E10 /* IllustTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40380D831E9BA53100B99E10 /* IllustTableViewController.swift */; };
+		40380D861E9BA77700B99E10 /* illustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40380D851E9BA77700B99E10 /* illustCell.swift */; };
 		815D4BDA88332181656BD13B /* Pods_sample1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD8634D0E9D63B3CE57112F /* Pods_sample1Tests.framework */; };
 		89D103FEB4A64518A83EECE0 /* Pods_sample1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3D3B33EDA64F127B266A54 /* Pods_sample1UITests.framework */; };
 		E87C4BDD8D04985FBD900AD1 /* Pods_sample1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FC1878A828B63714F84A4A /* Pods_sample1.framework */; };
@@ -57,6 +58,7 @@
 		40380D751E9B970B00B99E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40380D811E9BA1D500B99E10 /* SampleImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleImageViewController.swift; sourceTree = "<group>"; };
 		40380D831E9BA53100B99E10 /* IllustTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IllustTableViewController.swift; sourceTree = "<group>"; };
+		40380D851E9BA77700B99E10 /* illustCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = illustCell.swift; sourceTree = "<group>"; };
 		77C534265A953327E93832C6 /* Pods-sample1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample1Tests/Pods-sample1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79C60B6090857A48ADB632D8 /* Pods-sample1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample1/Pods-sample1.debug.xcconfig"; sourceTree = "<group>"; };
 		95FC1878A828B63714F84A4A /* Pods_sample1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 				40380D5F1E9B970B00B99E10 /* Info.plist */,
 				40380D811E9BA1D500B99E10 /* SampleImageViewController.swift */,
 				40380D831E9BA53100B99E10 /* IllustTableViewController.swift */,
+				40380D851E9BA77700B99E10 /* illustCell.swift */,
 			);
 			path = sample1;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				40380D541E9B970B00B99E10 /* AppDelegate.swift in Sources */,
 				40380D841E9BA53100B99E10 /* IllustTableViewController.swift in Sources */,
 				40380D821E9BA1D500B99E10 /* SampleImageViewController.swift in Sources */,
+				40380D861E9BA77700B99E10 /* illustCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
